@@ -7,3 +7,9 @@ treinta_porciento=(taller_1 + taller_2 + quiz)/3
 setenta_porciento=parcial
 nota_final=(treinta_porciento*30/100) + (parcial*70/100)
 print(f"la nota de analisis es:{nota_final}")
+
+adnas
+
+asdnlaks
+
+asndlas
