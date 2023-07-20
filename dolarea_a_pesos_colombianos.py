@@ -1,7 +1,12 @@
-print("ingrese el precio de las camisa en dolares")
-dolar1=[5]
+print("ingrese el precio de las camisas en dolares")
+dolarlista=[]
+total_suma=0
+for i in range(0,5):
+    dolar=int(input("ingrese el precio en dolar: "))
+    dolarlista.append(dolar)
+    total_suma= sum(dolarlista)
 
-dolar=int(input("ingrese el precio en dolar: "))
-    
+valor_colombiano = 4000
+venta_ropa=total_suma * valor_colombiano
 
-peso_colombiano = 4000
+print(f"El total de la venta es $ {venta_ropa} pesos")
